@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,7 +7,41 @@
     <title>My App</title>
 </head>
 <body>
-    <h1>Welcome to my App</h1>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, accusamus. Voluptatem quis, rerum ducimus facilis vitae beatae quo eaque iure nisi repellat blanditiis quae, qui porro at modi? Aperiam, inventore!</p>
+    <h1>Welcome to CRUD</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nihil voluptates ab! Ut nesciunt veritatis blanditiis accusamus. Expedita obcaecati fugiat dicta omnis, maxime perferendis error debitis voluptatibus! Architecto, officia. Suscipit.</p>
 </body>
-</html>
+</html> -->
+
+{% extends 'base.html'%}
+
+{% block head %}
+
+<title>Task Smash</title>
+
+{% endblock %}
+
+
+{% block body %}
+
+<div class="content">
+        <h1>Task Smash 2.0</h1>
+        <h3>Gustavo project</h3>
+        <table>
+            <tr>
+                <th>Task</th>
+                <th>Added</th>
+                <th>Actions</th>
+            </tr>
+            <tr>
+                <td>Content</td>
+                <td>Data</td>
+                <td>More</td>
+            </tr>
+        </table>
+        <form action="">
+            <input type="text" name="content" id="content">
+            <input type="submit" value="Add Task" id="btn_add">
+        </form>
+</div>
+
+{% endblock %}
