@@ -1,6 +1,10 @@
 Basic setup:
 1. Virtual environment
 2. Packages and dependencies
+
+    pip install Flask Flask-Scss Flask-SQLAlchemy
+    pip freeze > requirements.txt
+
 3. Initial Flask App
 4. Project structure and setup
 5. link html files
