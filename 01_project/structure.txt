@@ -1,0 +1,23 @@
+Basic setup:
+1. Virtual environment
+2. Packages and dependencies
+3. Initial Flask App
+4. Project structure and setup
+5. link html files
+6. link css files
+7. testing
+
+Database model:
+1. Create a model (a model is a row of data in our database)
+
+HTTP and functionality:
+1. Add a task to the database (POST)
+2. Delete a task from the database
+3. Edit a task in the database
+
+(GET/POST)
+
+
+Styling with scss/sass
+1. Add any and all css Styling
+2. finalize any final ideas
